@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "✨ Feature Requests"
+    about: "We now accept feature requests only through Discord!"
+    url: "https://discord.com/channels/376425582139015168/1293179465160986746/1293179465160986746"
+  - name: "🛠️ Get Support"
+    about: "Need help? Join our Discord Server for assistance!"
+    url: "https://discord.gg/advancedplugins"
