@@ -1,0 +1,4 @@
+prefix: "&b[AdvancedModels]&r"
+messages:
+  cannot-place-here: "&cBạn không thể đặt cái này ở đây."
+  cannot-break: "&cBạn không thể phá hủy cái này."

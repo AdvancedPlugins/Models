@@ -1,0 +1,7 @@
+prefix: "&b[AdvancedModels]&r"
+
+messages:
+  cannot-place-here: "&cYou cannot place this here."
+  cannot-break: "&cYou cannot break this."
+  shift-again: "&7&oShift again to unequip cosmetics"
+  no-permission: "&cYou do not have permission to use this." # generic no permission message

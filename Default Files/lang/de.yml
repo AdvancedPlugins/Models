@@ -1,0 +1,5 @@
+prefix: "&b[AdvancedModels]&r"
+messages:
+  cannot-place-here: "&cDu kannst das hier nicht platzieren."
+  cannot-break: "&cDu kannst das nicht zerstören."
+  shift-again: "&7&oShift erneut, um Kosmetik abzulegen"

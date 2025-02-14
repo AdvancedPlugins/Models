@@ -1,0 +1,58 @@
+# Cosmetics Menu Configuration
+# All cosmetics are recognized by model type, if it's assigned as `type: COSMETIC` in model.yml file
+
+# To give player a cosmetic, simply assign them the permission advancedmodels.cosmetic.<cosmetic>
+name: "&b&lCosmetics"
+size: 45
+
+enabled: true
+command: 'cosmetics'
+
+# Should locked cosmetics be shown in the menu?
+showLockedCosmetics: true
+
+# Cosmetics whitelist/blacklist toggle. If set to true, the list will act as a blacklist, otherwise it will act as a whitelist.
+cosmeticsBlacklist: true
+cosmeticsList:
+  - example # example model name here
+
+items:
+  0-8:
+    type: BLACK_STAINED_GLASS_PANE
+    name: ' '
+  27-35:
+    type: BLACK_STAINED_GLASS_PANE
+    name: ' '
+  '39':
+    name: '&cPrevious Page'
+    action: PREVIOUS_PAGE
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFjOTZhNWMzZDEzYzMxOTkxODNlMWJjN2YwODZmNTRjYTJhNjUyNzEyNjMwM2FjOGUyNWQ2M2UxNmI2NGNjZiJ9fX0=
+  '40':
+    type: PAPER
+    name: '&cClear your cosmetics.'
+    lore:
+      - ' &8- &7Click here to &cclear&7 your cosmetic.'
+    action: RESET_COSMETIC
+  '41':
+    name: '&cNext Page'
+    action: NEXT_PAGE
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
+  '44':
+    type: WOODEN_DOOR
+    name: '&cClose the menu'
+    action: CLOSE
+
+settings:
+  # Slots in which colors can be displayed
+  cosmeticSlots: 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
+  cosmeticItem:
+    name: "&a&l%model name%"
+    lore:
+      - '&7%model description%'
+      - ''
+      - '&aClick to toggle this cosmetic!'
+  noPermissionItem:
+    name: "&a&l%model name%"
+    lore:
+      - '&7%model description%'
+      - '&c&oYou do not have permission to use this cosmetic.'

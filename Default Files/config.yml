@@ -1,0 +1,22 @@
+# AdvancedModels
+# Version: @version@
+# Release date: @date@
+
+# Language
+locale: en
+
+# Model item for placing
+# Placeholders: %model name%, %author%, %version%, %description%, %material%,
+# %parameter%(auto adds space after if not empty, e.g. `Red` Bed), %parameter no space%
+item:
+  type: "%material%"
+  name: "&a&l%parameter%&a%model name%"
+  lore:
+    - "&7%description%"
+
+cosmetics:
+  limit-per-player: 1 # How many cosmetics can be equipped by one player at once
+
+placing:
+  # Particle to play when a block is in the way. Set to '' to disable
+  block-in-the-way: 'ANGRY_VILLAGER'
